@@ -3,8 +3,8 @@ import 'package:flutter_day_night_animation/screens/size_config.dart';
 
 class Land extends StatelessWidget {
   const Land({
-    required Key key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
